@@ -1,21 +1,23 @@
-# Herdr en Stream Deck XL · Herdr on Stream Deck XL
+# Herdr Stream Deck XL Profile for macOS
 
-[Español](#español) · [English](#english) · [Descargar / Download](Herdr-XL-Agentes.streamDeckProfile?raw=true)
+[Español](#perfil-de-stream-deck-xl-para-herdr-en-macos) · [English](#herdr-shortcuts-for-coding-agents) · [Download the Stream Deck profile](Herdr-XL-Agentes.streamDeckProfile?raw=true)
+
+A ready-to-import Elgato Stream Deck XL profile for Herdr TUI on macOS, with keyboard shortcuts and menus for Codex, Claude Code, Pi, and Hermes.
 
 ![Perfil Herdr en Stream Deck XL / Herdr profile on Stream Deck XL](preview.png)
 
-## Español
+## Perfil de Stream Deck XL para Herdr en macOS
 
 Un perfil para gestionar agentes de programación desde un **Stream Deck XL de 32 teclas en macOS**. Cambia de proyecto o de panel, encuentra agentes que esperan una decisión y abre menús dedicados de Codex, Claude Code, Pi y Hermes.
 
-### Instalación
+### Cómo importar el perfil en Elgato Stream Deck
 
 1. Descarga [Herdr-XL-Agentes.streamDeckProfile](Herdr-XL-Agentes.streamDeckProfile?raw=true), ábrelo con doble clic y confirma la importación en la aplicación de Elgato.
 2. Abre [Herdr TUI](https://herdr.dev/tui/docs/) en un terminal y déjalo en primer plano antes de usar el perfil.
 3. Este perfil asume un prefijo **Ctrl+A** en Herdr. Si usas **Ctrl+B**, cambia los atajos en Stream Deck o configura el prefijo de Herdr como se indica abajo.
 4. Si macOS te lo solicita, permite que Stream Deck envíe pulsaciones desde **Ajustes del Sistema → Privacidad y seguridad → Accesibilidad**.
 
-### Distribución
+### Mapa de teclas y atajos de Herdr
 
 | Fila | Acciones |
 | --- | --- |
@@ -59,18 +61,18 @@ python3 build_profile.py
 
 El script regenera el archivo importable en la raíz del repositorio. Puedes editar las acciones, etiquetas y colores en [build_profile.py](build_profile.py).
 
-## English
+## Herdr shortcuts for coding agents
 
 A profile for managing coding agents from a **32-key Stream Deck XL on macOS**. Switch projects and panes, find agents that need input, and open dedicated menus for Codex, Claude Code, Pi, and Hermes.
 
-### Installation
+### How to import the Elgato Stream Deck profile
 
 1. Download [Herdr-XL-Agentes.streamDeckProfile](Herdr-XL-Agentes.streamDeckProfile?raw=true), double-click it, and accept the import in the Elgato app.
 2. Open [Herdr TUI](https://herdr.dev/tui/docs/) in your terminal and keep it in the foreground when using the profile.
 3. The profile expects **Ctrl+A** as the Herdr prefix. If you use **Ctrl+B**, edit the Stream Deck shortcuts or update your Herdr settings using the example above.
 4. If macOS prompts you, allow Stream Deck to send keystrokes in **System Settings → Privacy & Security → Accessibility**.
 
-### Layout
+### 32-key layout and Herdr keybindings
 
 | Row | Actions |
 | --- | --- |
